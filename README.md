@@ -45,3 +45,5 @@ Creating python Virtual Environment `python -m venv ~/env` (Created in home dire
 Now, go to profiles_project -> settings.py and add `rest_framework`, `rest_framework.authtoken`, `profiles_api` to the existing apps.
 
 To run the Django Development Web Server:  `python manage.py server 0.0.0.0:8000`
+
+
