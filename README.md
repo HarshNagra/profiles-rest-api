@@ -35,15 +35,14 @@ Creating python Virtual Environment `python -m venv ~/env` (Created in home dire
 
 ## In the python virtual environment:
 
+`cd /vagrant`
+
 `pip install -r requirements.txt`
 
 `django-admin.py startproject profiles_project .` To create a django project.
 
 `python manage.py startapp profiles_api` to create Django App.
 
-
-Now, go to profiles_project -> settings.py and add `rest_framework`, `rest_framework.authtoken`, `profiles_api` to the existing apps.
-
-To run the Django Development Web Server:  `python manage.py server 0.0.0.0:8000`
+`python manage.py server 0.0.0.0:8000` To run the Django Development Web Server.
 
 
