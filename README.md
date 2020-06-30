@@ -46,3 +46,8 @@ Creating python Virtual Environment `python -m venv ~/env` (Created in home dire
 `python manage.py server 0.0.0.0:8000` To run the Django Development Web Server.
 
 
+### Migrations FIX 
+
+1. Delete SQLite file.
+2. Open Migrations folder within the app.
+3. Delete everything within the folder except `__init__.py`
