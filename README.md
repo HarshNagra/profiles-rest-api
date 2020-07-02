@@ -69,11 +69,14 @@ Specifications (Profile API)
 ##### GET: List all feed items.
 ##### POST: Create feed item for logged in user.
 
+![](./images/api-feed.png)
+
 ##### GET: Manage specific feed items.
 ##### PUT: Update the full feed item.
 ##### PATCH: Update the feed item partially.
 ##### DELETE: Delete feed item.
 
+![](./images/api-feed-1.png)
 
 ## Set Up 
 
