@@ -33,6 +33,10 @@ Specifications (Profile API)
 
 5. Delete Profile
 
+6. Feed
+    - List all feed items.
+    - List particular feed item.
+
 ### `/api/profile/` :
 
 ###### GET: List all profiles
@@ -59,6 +63,17 @@ Specifications (Profile API)
 ### `/api/login/` :
 
 ![](./images/api-login.png)
+
+### `/api/feed/` :
+
+##### GET: List all feed items.
+##### POST: Create feed item for logged in user.
+
+##### GET: Manage specific feed items.
+##### PUT: Update the full feed item.
+##### PATCH: Update the feed item partially.
+##### DELETE: Delete feed item.
+
 
 ## Set Up 
 
