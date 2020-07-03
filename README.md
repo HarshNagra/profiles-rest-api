@@ -117,3 +117,8 @@ Specifications (Profile API)
 1. Delete SQLite file.
 2. Open Migrations folder within the app.
 3. Delete everything within the folder except `__init__.py`
+
+
+`cat ~/.ssh/id_rsa.pub`
+
+`ls -al ~/.ssh`
